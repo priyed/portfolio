@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+  background: #222831;
+  background: radial-gradient(circle, #222831 0%, #0e1216 100%);
+  color: #dfe0e4;
+}
+
+.App {
+  margin-top: 100px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+/*
+.container {
+  animation: fadeDown 1s;
+  
+}
+
+@keyframes fadeDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+*/
+
+.header {
+  margin-top: 50px;
+}
+
+.header h2 {
+  margin-bottom: 20px;
+  font-family: "Inter";
+}
+
+.header h1 {
+  font-size: 54px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #0073e6, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6;
+  margin-bottom: 10px;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.header p {
+  margin: 30px 20px 0;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #0073e6, 0 0 15px #0073e6,
+      0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6;
+  }
+  to {
+    text-shadow: 0 0 7px #fff, 0 0 10px #0073e6, 0 0 20px #0073e6,
+      0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6;
+  }
+}
+
+.copyright {
+  font-size: 11px;
+  display: none;
+}
+
+.little-star {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  margin-left: 400px;
+  animation: twinklin 4s ease-in infinite;
+}
+
+.little-star2 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  animation: twinklin 2s ease-in infinite;
+}
+
+@keyframes twinklin {
+  50% {
+    transform: scale(0.3);
+  }
+}
