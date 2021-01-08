@@ -13,9 +13,9 @@ html {
 
 body {
   font-family: "Poppins";
-  background: #222831;
-  background: radial-gradient(circle, #222831 0%, #0e1216 100%);
-  color: #dfe0e4;
+  background: #0d1117;
+  background: radial-gradient(circle, #0d1117 0%, #0e1216 100%);
+  color: #C9D1C0;
 }
 
 .App {
@@ -26,7 +26,7 @@ body {
 }
 
 /*
-.container {
+#home {
   animation: fadeDown 1s;
   
 }
@@ -43,8 +43,10 @@ body {
 }
 */
 
+
 .header {
-  margin-top: 50px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .header h2 {

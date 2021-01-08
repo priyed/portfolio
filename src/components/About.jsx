@@ -1,55 +1,28 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAwards } from "@fortawesome/free-solid-svg-icons";
 import "./About.css";
-import { motion, useViewportScroll } from "framer-motion";
-
-const containerVariants = {
-  exit: {
-      x: "-100vw",
-      transition: {ease: 'easeInOut'}
-  }
-}
 
 const About = () => {
   return (
-    <motion.div className="about-container container"
-    >
-      <motion.h1
-        initial={{y: -100}}
-        animate={{y: 0}}
-        transition={{type: "spring", duration: 0.5, ease: "easeOut"}}
-      >Hey There</motion.h1>
-      <motion.p
-         initial={{x: "-100vw"}}
-         animate={{x: 0}}
-         transition={{type: "spring", duration: 0.5, ease: "easeOut"}}
-      >
+    <div className="about-container container" id="about">
+      <h1>Hey There</h1>
+      <p>
         My name is Stanley Duye, a frontend web developer with a knack for
         building simple and easy to use websites and web apps without cutting
         short on functionality, design and speed.
-      </motion.p>
-      <motion.p
-        initial={{x: "100vw"}}
-        animate={{x: 0}}
-        transition={{type: "spring", delay: 1.5, duration: 0.5, ease: "easeInOut"}}
-      >
+      </p>
+      <p>
         I enjoy finding creative solution to the problems I face with a constant
         drive to get better and push forward in all I do.
-      </motion.p>
-      <motion.p
-        initial={{x: "-100vw"}}
-        animate={{x: 0}}
-        transition={{type: "spring",delay: 2, duration: 0.5, ease: "easeInOut"}}
-      >
+      </p>
+      <p>
         I spend my days coding something, bringing designs/mockups to life and
         learning. When I am not coding, I trade the financial markets, watch
         movies or hang out with friends.
-      </motion.p>
+      </p>
 
-      <motion.div className="skills-container"
-        initial={{opacity: 0}}
-        animate={{opacity: 1}}
-        transition={{duration: 1.5}}
-      >
+      <div className="skills-container">
         <h3>Skills I currently work with</h3>
         <div className="skills-icon">
           <div className="react-icon icon">
@@ -64,7 +37,6 @@ const About = () => {
                 fill="#00D8FF"
               ></path>
             </svg>
-            <p>React</p>
           </div>
           <div className="html-icon icon">
             <svg
@@ -78,7 +50,6 @@ const About = () => {
                 fill="#F06235"
               ></path>
             </svg>
-            <p>HTML</p>
           </div>
           <div className="css-icon icon">
             <svg
@@ -92,11 +63,10 @@ const About = () => {
                 fill="#299EFA"
               ></path>
             </svg>
-            <p>CSS</p>
           </div>
-          </div>
-         
-         <div className="skills-icon">
+        </div>
+
+        <div className="skills-icon">
           <div className="JS-icon icon">
             <svg
               role="img"
@@ -115,7 +85,6 @@ const About = () => {
                 fill="black"
               ></path>
             </svg>
-            <p>JavaScript</p>
           </div>
           <div className="git-icon icon">
             <svg
@@ -130,40 +99,8 @@ const About = () => {
                 fill="#DE4C36"
               ></path>
             </svg>
-            <p>Git</p>
           </div>
-          <div className="figma-icon icon">
-            <svg
-              role="img"
-              viewBox="0 0 60 60"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid meet"
-            >
-              <path
-                d="M10 60C15.52 60 20 55.52 20 50V40H10C4.48 40 0 44.48 0 50C0 55.52 4.48 60 10 60Z"
-                fill="#0ACF83"
-              ></path>
-              <path
-                d="M0 30C0 24.48 4.48 20 10 20H20V40H10C4.48 40 0 35.52 0 30Z"
-                fill="#A259FF"
-              ></path>
-              <path
-                d="M0 10C0 4.48 4.48 0 10 0H20V20H10C4.48 20 0 15.52 0 10Z"
-                fill="#F24E1E"
-              ></path>
-              <path
-                d="M20 0H30C35.52 0 40 4.48 40 10C40 15.52 35.52 20 30 20H20V0Z"
-                fill="#FF7262"
-              ></path>
-              <path
-                d="M40 30C40 35.52 35.52 40 30 40C24.48 40 20 35.52 20 30C20 24.48 24.48 20 30 20C35.52 20 40 24.48 40 30Z"
-                fill="#1ABCFE"
-              ></path>
-            </svg>
-            <p>Figma</p>
-          </div>
-          
+
           <div className="tailwind-icon icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -172,10 +109,7 @@ const About = () => {
               version="1.1"
             >
               <defs>
-                <linearGradient
-                  id="linearGradient-1"
-                  
-                >
+                <linearGradient id="linearGradient-1">
                   <stop stopColor="#2298bd" offset="0%" />
                   <stop stopColor="#0ed7b5" offset="100%" />
                 </linearGradient>
@@ -187,12 +121,10 @@ const About = () => {
                 />
               </g>
             </svg>
-            <p>TailwindCSS</p>
           </div>
-          </div>
-      
-      </motion.div>
-    </motion.div>
+        </div>
+      </div>
+    </div>
   );
 };
 

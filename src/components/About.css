@@ -1,6 +1,7 @@
 .about-container {
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 100px;
 }
 
 .about-container p {
@@ -25,18 +26,15 @@
 }
 
 .skills-icon {
-    display: grid;
-    grid-template-columns: repeat(3,minmax(auto,100px));
-    place-items: center;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
+    display: flex;
+    align-items: center;
     border-radius: 3px;
     margin-top: 20px;
 }
 
 .icon {
-    width: 30px;
+    
+    width: 40px;
     height: auto;
     margin: 10px 20px 10px;
 }
@@ -53,6 +51,10 @@
     margin-top: 6px;
 }
 
+.tailwind-icon {
+    text-align: center;
+}
+
 .tailwind-icon p {
-    margin-right: 400px;
+    margin-top: 12px;
 }
