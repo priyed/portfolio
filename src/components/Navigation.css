@@ -33,12 +33,12 @@ nav ul li:last-child {
 }
 
  .link.active {
-    color: #6DE76D;
+    color: #4aa84a;
     border-bottom: 1px solid #589DD2;
 }
 
 .link:hover {
-    border-bottom: 1px solid #6DE76D;
+    border-bottom: 1px solid #4aa84a;
 }
 
 .home-link {

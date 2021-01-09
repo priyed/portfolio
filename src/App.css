@@ -15,7 +15,8 @@ body {
   font-family: "Poppins";
   background: #0d1117;
   background: radial-gradient(circle, #0d1117 0%, #0e1216 100%);
-  color: #C9D1C0;
+  color: #EFEAE1;
+  font-weight: lighter;
 }
 
 .App {
@@ -45,7 +46,7 @@ body {
 
 
 .header {
-  margin-bottom: 120px;
+  margin-bottom: 90px;
   padding-top: 100px;
 
 }

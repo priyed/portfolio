@@ -1,9 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import "./Contacts.css";
 
 const Contact = () => {
   return (
     <div className="contacts-container container" id="contact">
+      <FontAwesomeIcon icon={faMailBulk} className="contacts-icon" />
         <h1>Contact me</h1>
         <h3>Let's build some cool stuff together</h3>
       <form name="contact" action="#" method="POST" className="contact-form">

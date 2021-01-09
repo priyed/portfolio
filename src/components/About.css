@@ -1,9 +1,19 @@
 .about-container {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
+    margin: 50px 30px 120px;
     padding-top: 90px;
     position: relative;
+}
+
+.about-container h4 {
+    margin-bottom: 50px;
+    text-align: left;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.about-container h1 {
+    font-size: 40px;
 }
 
 .about-container p {
@@ -12,11 +22,11 @@
     font-weight: lighter;
     color: #ccc;
     line-height: 1.8;
-    margin: 30px 40px 0;
+    margin: 30px 10px;
 }
 
 .profile-icon {
-    color: #334b5e;
+    color: #335e3a;
     font-size: 200px;
     z-index: -20;
     opacity: 0.1;

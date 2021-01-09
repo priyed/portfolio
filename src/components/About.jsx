@@ -7,6 +7,7 @@ const About = () => {
   return (
     <div className="about-container container" id="about">
       <FontAwesomeIcon icon={faUser} className="profile-icon"/>
+      <h4>About me</h4>
       <h1>Hey There</h1>
       <p>
         My name is Stanley Duye, a frontend web developer with a knack for

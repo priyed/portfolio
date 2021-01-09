@@ -1,13 +1,26 @@
 .contacts-container {
-    font-size: 14px;
-    color: #ccc;
-    margin-top: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  padding-top: 90px;
+  position: relative;
   /*  animation: fadeUp 1s; */
 }
 
+.contacts-icon {
+  color: #f9826c;
+  font-size: 200px;
+  z-index: -20;
+  opacity: 0.1;
+  position: absolute;
+  top: 20px;
+  right: -20px;
+
+}
+
 .contacts-container h3 {
-    margin-top: 15px;
-    font-weight: 300;
+  margin-top: 15px;
+  font-weight: lighter;
 }
 
 /*
@@ -24,43 +37,43 @@
 */
 
 form {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    color: #ccc;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  color: #ccc;
 }
 
 label {
-    margin-top: 20px;
-    font-weight: lighter;
+  margin-top: 20px;
+  font-weight: lighter;
 }
 
 .form-label p {
-   margin-bottom: -10px; 
+  margin-bottom: -10px;
 }
 
 .form-input {
-    width: 300px;
-    padding: 10px 10px;
-    border-radius: 2px;
-    color: #ccc;
-    outline: none;
-    border: 1px solid rgb(109, 109, 109);
-    background-color: #222831;
+  width: 300px;
+  padding: 10px 10px;
+  border-radius: 2px;
+  color: #ccc;
+  outline: none;
+  border: 1px solid rgb(109, 109, 109);
+  background-color: #222831;
 }
 
 .submit-button {
-    width: 100px;
-    margin: 20px auto 0;
-    padding: 7px 10px;
-    border: none;
-    background-color: #61affd;
-    color: #2e2e2e;
-    border-radius: 2px;
-    box-shadow: 0 2px 2px 1px #61affd;
-    cursor: pointer;
+  width: 100px;
+  margin: 20px auto 0;
+  padding: 7px 10px;
+  border: none;
+  background-color: #61affd;
+  color: #2e2e2e;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 1px #61affd;
+  cursor: pointer;
 }
 
 .submit-button:active {
-    outline: none;
+  outline: none;
 }
