@@ -1,11 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAwards } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faCogs } from "@fortawesome/free-solid-svg-icons";
 import "./About.css";
 
 const About = () => {
   return (
     <div className="about-container container" id="about">
+      <FontAwesomeIcon icon={faUser} className="profile-icon"/>
       <h1>Hey There</h1>
       <p>
         My name is Stanley Duye, a frontend web developer with a knack for
@@ -23,6 +24,7 @@ const About = () => {
       </p>
 
       <div className="skills-container">
+      <FontAwesomeIcon icon={faCogs} className="skill-cogs"/>
         <h3>Skills I currently work with</h3>
         <div className="skills-icon">
           <div className="react-icon icon">

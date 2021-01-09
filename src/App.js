@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Navigation from "./components/Navigation";
 import About from "./components/About";
@@ -10,7 +9,7 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
+      <>
       <Navigation />
         <div className="App container">
           <Home />
@@ -19,7 +18,7 @@ class App extends React.Component {
           <Contact />
         </div>
         
-      </BrowserRouter>
+      </>
     );
   }
 }

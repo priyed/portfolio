@@ -28,23 +28,23 @@ const Navigation = () => {
   return (
     
       <header  style={{ top: visible ? '0': '-60px' }}>
-      <a className="home-link" href="#home">
+      <a className="home-link" href="#home" offset="100">
           <FontAwesomeIcon icon={faHome} />
           </a>
         <nav>
           <ul>
             <li>
-            <a className="link" href="#about" activeClassName="active">
+            <a className="link" href="#about" >
                 About
               </a>
             </li>
             <li>
-            <a  className="link" href="#projects" activeClassName="active">
+            <a  className="link" href="#projects" >
                 Projects
               </a>
             </li>
             <li>
-            <a  className="link" href="#contact" activeClassName="active">
+            <a  className="link" href="#contact">
                 Contact
               </a>
             </li>
