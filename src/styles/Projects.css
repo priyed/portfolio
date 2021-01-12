@@ -1,0 +1,9 @@
+project-icon {
+    color: #335e3a;
+    font-size: 200px;
+    z-index: -20;
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

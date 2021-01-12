@@ -1,13 +1,44 @@
 .contacts-container {
-    font-size: 14px;
-    color: #ccc;
-    margin-top: 5px;
+  margin: 50px 30px 90px;
+  padding-top: 90px;
+  position: relative;
+  font-weight: lighter;
   /*  animation: fadeUp 1s; */
 }
 
+.bg-icon {
+  color: #f9826c;
+  font-size: 200px;
+  z-index: -20;
+  opacity: 0.1;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+.contacts-container h4 {
+  margin-bottom: 40px;
+  text-align: left;
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
 .contacts-container h3 {
-    margin-top: 15px;
-    font-weight: 300;
+  margin-top: 15px;
+  font-weight: lighter;
+}
+
+.contacts-container h5 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #f9826c;
+}
+
+.contacts-container p {
+  line-height: 20px;
+  font-size: 16px;
 }
 
 /*
@@ -21,46 +52,94 @@
       opacity: 1;
     }
   }
-*/
+
 
 form {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    color: #ccc;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  color: #ccc;
 }
 
 label {
-    margin-top: 20px;
-    font-weight: lighter;
+  margin-top: 20px;
+  font-weight: lighter;
 }
 
 .form-label p {
-   margin-bottom: -10px; 
+  margin-bottom: -10px;
 }
 
 .form-input {
-    width: 300px;
-    padding: 10px 10px;
-    border-radius: 2px;
-    color: #ccc;
-    outline: none;
-    border: 1px solid rgb(109, 109, 109);
-    background-color: #222831;
+  width: 300px;
+  padding: 10px 10px;
+  border-radius: 2px;
+  color: #ccc;
+  outline: none;
+  border: 1px solid rgb(109, 109, 109);
+  background-color: #222831;
 }
 
 .submit-button {
-    width: 100px;
-    margin: 20px auto 0;
-    padding: 7px 10px;
-    border: none;
-    background-color: #61affd;
-    color: #2e2e2e;
-    border-radius: 2px;
-    box-shadow: 0 2px 2px 1px #61affd;
-    cursor: pointer;
+  width: 100px;
+  margin: 20px auto 0;
+  padding: 7px 10px;
+  border: none;
+  background-color: #61affd;
+  color: #2e2e2e;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 1px #61affd;
+  cursor: pointer;
 }
 
 .submit-button:active {
-    outline: none;
+  outline: none;
 }
+*/
+
+.social-btn-container {
+  position: absolute;
+  left: 50%;
+  margin-top: 30px;
+  transform: translate(-50%, -50%);
+}
+
+
+.social-btns  .social-btn {
+  display: inline-block;
+  color: rgb(90, 173, 201);
+  width: 25px;
+  height: 25px;
+  line-height: 50px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  opacity: 0.99;
+  transition: all 0.3s;
+}
+
+
+.fb-icon:hover {
+  color: #3b5998;
+}
+
+.twitter-icon:hover {
+  color: #3cf;
+}
+
+.git-icon:hover {
+  color: #AFB5BB;
+}
+
+.whatsapp-icon:hover {
+  color: rgb(236, 236, 236);
+  background:
+  linear-gradient(#25d366,#25d366)10px 84%/10px 15px no-repeat,
+  radial-gradient(#25d366 60%,transparent 0);
+}
+
+
+
