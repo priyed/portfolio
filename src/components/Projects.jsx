@@ -1,13 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faProjectDiagram } from "@fortawesome/free-solid-svg-icons";
+import { faFlask } from "@fortawesome/free-solid-svg-icons";
 import "./Projects.css";
 
 const Projects = () => {
   return (
     <>
       <div className="projects-container container" id="projects">
-        <FontAwesomeIcon icon={faProjectDiagram} className="project-icon" />
+        <FontAwesomeIcon icon={faFlask} className="project-icon" />
         <h4>Projects</h4>
         <h2>Recent Projects & Websites</h2>
         <p className="projects-about">
@@ -23,6 +23,9 @@ const Projects = () => {
             <p className="chip">React</p>
             <p className="chip">Tailwind</p>
           </div>
+          <div className="project-description">
+            <p>Project Description</p>
+          </div>
         </div>
 
         <div className="project-card">
@@ -34,6 +37,9 @@ const Projects = () => {
             <p className="chip">CSS</p>
             <p className="chip">JavaScript</p>
           </div>
+          <div className="project-description">
+            <p>Project Description</p>
+          </div>
         </div>
 
         <div className="project-card">
@@ -43,6 +49,9 @@ const Projects = () => {
           <div className="stack">
             <p className="chip">React</p>
             <p className="chip">Tailwind</p>
+          </div>
+          <div className="project-description">
+            <p>Project Description</p>
           </div>
         </div>
 

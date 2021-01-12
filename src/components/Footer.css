@@ -1,0 +1,15 @@
+.footer-container {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: #161B22;
+}
+
+.footer-icon {
+    color: red;
+}
+
+.name {
+    font-family: "East Sea Dokdo";
+    font-size: 25px;
+}
