@@ -55,6 +55,7 @@ body {
 .header h2 {
   margin-bottom: 20px;
   font-family: "Inter";
+  font-size: 30px;
 
 }
 
@@ -87,29 +88,4 @@ body {
 .copyright {
   font-size: 11px;
   display: none;
-}
-
-.little-star {
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  background: white;
-  position: absolute;
-  margin-left: 400px;
-  animation: twinklin 4s ease-in infinite;
-}
-
-.little-star2 {
-  width: 1px;
-  height: 1px;
-  border-radius: 50%;
-  background: white;
-  position: absolute;
-  animation: twinklin 2s ease-in infinite;
-}
-
-@keyframes twinklin {
-  50% {
-    transform: scale(0.3);
-  }
 }
