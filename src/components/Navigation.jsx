@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { debounce } from '../utilities/helpers';
+import { debounce } from "../utilities/helpers";
 import "./Navigation.css";
 
 const Navigation = () => {
-
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
@@ -14,43 +13,72 @@ const Navigation = () => {
     const currentScrollPos = window.pageYOffset;
 
     // set state based on location info
-    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
+    setVisible(
+      (prevScrollPos > currentScrollPos &&
+        prevScrollPos - currentScrollPos > 70) ||
+        currentScrollPos < 10
+    );
 
     // set state to new scroll position
     setPrevScrollPos(currentScrollPos);
   }, 100);
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [prevScrollPos, visible, handleScroll]);
 
-  return (
+  const openNav = () => {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("main").style.display = "none";
+    document.body.classList.toggle('lock-scroll');
+  };
+
+  const closeNav = () => {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("main").style.display = "block"
+    document.body.classList.toggle('lock-scroll');
+  };
+
+  const lockScroll = () => {
     
-      <header  style={{ top: visible ? '0': '-60px' }}>
-      <a className="home-link" href="#home" offset="100">
-          <FontAwesomeIcon icon={faHome} />
-          </a>
-        <nav>
-          <ul>
-            <li>
-            <a className="link" href="#about" >
-                About
-              </a>
-            </li>
-            <li>
-            <a  className="link" href="#projects" >
-                Projects
-              </a>
-            </li>
-            <li>
-            <a  className="link" href="#contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+}
+
+  return (
+    <div className="navigation" style={{ top: visible ? "0" : "-60px" }}>
+      <div id="main" className="lock-scroll">
+        <span onClick={openNav} className="menubtn">&#9776;</span>
+      </div>
+      <nav id="mySidenav" className="sidenav">
+        <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>
+          x
+        </a>
+        <ul>
+          <li>
+            <a className="link" href="#home" onClick={closeNav}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="link" href="#about" onClick={closeNav}>
+              About
+            </a>
+          </li>
+          <li>
+            <a className="link" href="#projects" onClick={closeNav}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a className="link" href="#contact" onClick={closeNav}>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 

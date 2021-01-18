@@ -18,6 +18,7 @@ const Projects = () => {
         <div className="project-card">
           <div className="image-container">
             <img src="" alt="screenshot of a project I worked on" />
+            <h4>Project title</h4>
           </div>
           <div className="stack">
             <p className="chip">React</p>
@@ -31,6 +32,7 @@ const Projects = () => {
         <div className="project-card">
           <div className="image-container">
             <img src="" alt="screenshot of a project I worked on" />
+            <h4>Project title</h4>
           </div>
           <div className="stack">
             <p className="chip">HTML</p>
@@ -45,6 +47,7 @@ const Projects = () => {
         <div className="project-card">
           <div className="image-container">
             <img src="" alt="screenshot of a project I worked on" />
+            <h4>Project title</h4>
           </div>
           <div className="stack">
             <p className="chip">React</p>
@@ -58,6 +61,7 @@ const Projects = () => {
         <div className="project-card">
           <div className="image-container">
             <img src="" alt="screenshot of a project I worked on" />
+            <h4>Project title</h4>
           </div>
           <div className="stack">
             <p className="chip">React</p>
