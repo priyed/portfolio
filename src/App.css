@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 * {
   margin: 0;
@@ -54,12 +54,11 @@ body {
 
 .header h2 {
   margin-bottom: 20px;
-  font-family: "Inter";
-  font-size: 30px;
-
+  font-size: 25px;
 }
 
 .header h1 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 65px;
   color: #F5F5F5;
   /*text-shadow: 0 0 1px #F5F5F5, 0 0 3px #4c95dd, 0 0 3px #4c95dd,
