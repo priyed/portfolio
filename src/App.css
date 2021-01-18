@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +14,10 @@ html {
 
 body {
   font-family: "Lato";
-  background: radial-gradient(circle, #0d1117 0%, #0e1216 100%);
-  color: #868686;
+  background: #141B1F;
+  color: #F5F5F5;
   font-weight: lighter;
-  
+  overflow-x: hidden;
 }
 
 .App {
@@ -58,29 +59,30 @@ body {
 }
 
 .header h1 {
-  font-size: 60px;
-  color: #f1f1f1;
-  text-shadow: 0 0 5px #f1f1f1, 0 0 10px #0073e6, 0 0 10px #0073e6,
-    0 0 10px #0073e6, 0 0 15px #0073e6, 0 0 20px #0073e6;
+  font-size: 65px;
+  color: #F5F5F5;
+  /*text-shadow: 0 0 1px #F5F5F5, 0 0 3px #4c95dd, 0 0 3px #4c95dd,
+    0 0 3px #4c95dd, 0 0 5px #4c95dd, 0 0 7px #4c95dd;*/
   margin-bottom: 10px;
-  animation: glow 1s ease-in-out infinite alternate;
+  /*animation: glow 1s ease-in-out infinite alternate;*/
 }
 
 .header p {
   margin: 30px 20px 0;
   font-size: 20px;
 }
-
+/*
 @keyframes glow {
   from {
-    text-shadow: 0 0 5px #f1f1f1, 0 0 7px #0073e6, 0 0 8px #0073e6,
-    0 0 6px #0073e6, 0 0 10px #0073e6, 0 0 15px #0073e6;
+    text-shadow: 0 0 5px #F5F5F5, 0 0 7px #4c95dd, 0 0 8px #4c95dd,
+    0 0 6px #4c95dd, 0 0 10px #4c95dd, 0 0 15px #4c95dd;
   }
   to {
-    text-shadow: 0 0 7px #f1f1f1, 0 0 10px #0073e6, 0 0 12px #0073e6,
-      0 0 10px #0073e6, 0 0 15px #0073e6, 0 0 20px #0073e6;
+    text-shadow: 0 0 7px #F5F5F5, 0 0 10px #4c95dd, 0 0 12px #4c95dd,
+      0 0 10px #4c95dd, 0 0 15px #4c95dd, 0 0 20px #4c95dd;
   }
 }
+*/
 
 .copyright {
   font-size: 11px;

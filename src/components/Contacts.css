@@ -19,8 +19,8 @@
 .contacts-container h4 {
   margin-bottom: 40px;
   text-align: left;
-  opacity: 0.5;
-  font-size: 16px;
+  opacity: 0.3;
+  font-size: 20px;
   font-weight: lighter;
 }
 
@@ -33,7 +33,7 @@
   margin-top: 20px;
   font-size: 20px;
   font-weight: lighter;
-  color: #f9826c;
+  color: #4c95dd;
 }
 
 .contacts-container p {
@@ -107,39 +107,23 @@ label {
 
 .social-btns  .social-btn {
   display: inline-block;
-  color: rgb(90, 173, 201);
+  color: #ccc;
   width: 25px;
   height: 25px;
-  line-height: 50px;
   margin: 0 10px;
   text-align: center;
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
+  
   box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
   opacity: 0.99;
   transition: all 0.3s;
 }
 
-
-.fb-icon:hover {
-  color: #3b5998;
+.social-btns .social-btn:hover {
+  color: #4c95dd;
 }
 
-.twitter-icon:hover {
-  color: #3cf;
-}
-
-.git-icon:hover {
-  color: #AFB5BB;
-}
-
-.whatsapp-icon:hover {
-  color: rgb(236, 236, 236);
-  background:
-  linear-gradient(#25d366,#25d366)10px 84%/10px 15px no-repeat,
-  radial-gradient(#25d366 60%,transparent 0);
-}
 
 
 
