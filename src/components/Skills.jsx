@@ -1,12 +1,12 @@
 import React from "react";
 import Tippy from "@tippyjs/react";
 
-import Git from "../assets/git.svg";
-import CSS from "../assets/css.svg";
-import JS from "../assets/js.svg";
-import Tailwind from "../assets/tailwind.svg";
-import ReactSkill from "../assets/react.svg";
-import HTML from "../assets/html.svg";
+import Git from "../assets/skillicons/git.svg";
+import CSS from "../assets/skillicons/css.svg";
+import JS from "../assets/skillicons/js.svg";
+import Tailwind from "../assets/skillicons/tailwind.svg";
+import ReactSkill from "../assets/skillicons/react.svg";
+import HTML from "../assets/skillicons/html.svg";
 
 const Skills = () => {
   return (

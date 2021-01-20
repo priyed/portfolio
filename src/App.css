@@ -27,29 +27,9 @@ body {
   text-align: center;
 }
 
-/*
-#home {
-  animation: fadeDown 1s;
-  
-}
-
-@keyframes fadeDown {
-  0% {
-    transform: translateY(-20px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-*/
-
-
 .header {
   margin-bottom: 90px;
   padding-top: 100px;
-
 }
 
 .header h2 {
@@ -61,30 +41,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 65px;
   color: #F5F5F5;
-  /*text-shadow: 0 0 1px #F5F5F5, 0 0 3px #4c95dd, 0 0 3px #4c95dd,
-    0 0 3px #4c95dd, 0 0 5px #4c95dd, 0 0 7px #4c95dd;*/
-  margin-bottom: 10px;
-  /*animation: glow 1s ease-in-out infinite alternate;*/
 }
 
 .header p {
   margin: 30px 20px 0;
   font-size: 20px;
-}
-/*
-@keyframes glow {
-  from {
-    text-shadow: 0 0 5px #F5F5F5, 0 0 7px #4c95dd, 0 0 8px #4c95dd,
-    0 0 6px #4c95dd, 0 0 10px #4c95dd, 0 0 15px #4c95dd;
-  }
-  to {
-    text-shadow: 0 0 7px #F5F5F5, 0 0 10px #4c95dd, 0 0 12px #4c95dd,
-      0 0 10px #4c95dd, 0 0 15px #4c95dd, 0 0 20px #4c95dd;
-  }
-}
-*/
-
-.copyright {
-  font-size: 11px;
-  display: none;
 }
