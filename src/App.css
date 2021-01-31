@@ -44,6 +44,27 @@ body {
 }
 
 .header p {
-  margin: 30px 20px 0;
+  margin: 30px 20px 50px;
   font-size: 20px;
+}
+
+.header a {
+  border: 2px solid #4c95dd;
+  border-radius: 3px;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 16px;
+  transition: all 0.4s ease-in-out;
+}
+
+.header a:hover {
+  background-color: #4c95dd;
+  color: white;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.header a:active {
+  transform: translateY(5px);
 }

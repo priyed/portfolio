@@ -27,12 +27,12 @@
 }
 
 .profile-icon {
-    color: #335e3a;
-    font-size: 250px;
+    color: rgb(114, 114, 114);
+    font-size: 300px;
     z-index: -20;
-    opacity: 0.2;
+    opacity: 0.1;
     position: absolute;
-    left: 0;
+    left: -150px;
     top: 0;
     
 }
@@ -46,12 +46,12 @@
 }
 
 .skill-cogs {
-    color: #334b5e;
-    font-size: 250px;
+    color: rgb(114, 114, 114);
+    font-size: 300px;
     z-index: -20;
-    opacity: 0.2;
+    opacity: 0.1;
     position: absolute;
-    right: 0;
+    right: 0px;
     top: -50px;
 }
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { debounce } from "../utilities/helpers";
 import "./Navigation.css";
 
@@ -42,18 +42,14 @@ const Navigation = () => {
     document.body.classList.toggle('lock-scroll');
   };
 
-  const lockScroll = () => {
-    
-}
-
   return (
     <div className="navigation" style={{ top: visible ? "0" : "-60px" }}>
       <div id="main" className="lock-scroll">
-        <span onClick={openNav} className="menubtn">&#9776;</span>
+        <FontAwesomeIcon icon={faBars} onClick={openNav}className="menubtn"/>
       </div>
       <nav id="mySidenav" className="sidenav">
         <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>
-          x
+          <FontAwesomeIcon icon={faTimes} />
         </a>
         <ul>
           <li>
@@ -73,6 +69,32 @@ const Navigation = () => {
           </li>
           <li>
             <a className="link" href="#contact" onClick={closeNav}>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      {/*Desktop Navigation */}
+      <nav className="desktop-navigation">
+        <ul>
+          <li>
+            <a className="link" href="#home">
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="link" href="#about">
+              About
+            </a>
+          </li>
+          <li>
+            <a className="link" href="#projects">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a className="link" href="#contact">
               Contact
             </a>
           </li>

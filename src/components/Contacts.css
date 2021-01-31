@@ -7,13 +7,13 @@
 }
 
 .bg-icon {
-  color: #f9826c;
-  font-size: 200px;
+  color: rgb(114, 114, 114);
+  font-size: 300px;
   z-index: -20;
   opacity: 0.1;
   position: absolute;
   top: 30px;
-  right: 0;
+  right: 0px;
 }
 
 .contacts-container h4 {

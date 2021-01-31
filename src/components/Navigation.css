@@ -6,18 +6,19 @@
     position: fixed;
     top: 0;
     width: 100%;   
-    height: 70px;
+    height: 60px;
     z-index: 100; 
     transition: top 0.6s;
 }
 
 .menubtn {
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 30px;
     position: absolute;
     top: 15px;
     color: #ccc;
     cursor: pointer;
+    transition: all 0.4s;
 }
 
 .menubtn:hover, .closebtn:hover         {
@@ -62,14 +63,10 @@
     margin: 20px 10px;
 }
 
-.sidenav ul li:last-child {
-    margin-right: 30px;
-}
-
 .link {
     text-decoration: none;
     color:#b3b3b3;
-    font-size: 25px;
+    font-size: 20px;
     transition: all 0.3s;
 }
 
@@ -83,32 +80,18 @@
     outline: none;
 }
 
-
-/*
-.home-link {
-    font-size: 20px;
-    margin-left: 30px;
-    margin-top: 13px;
-    text-decoration: none;
-    opacity: 0.7;
-    color: #AEA8DB;
-    transition: all 0.4s;
-    animation: fadeDown 0.4s;
+.desktop-navigation {
+    display: none;
 }
 
-.home-link:hover {
-    opacity: 1;
-}
-
-@keyframes fadeDown {
-    0% {
-        opacity: 0;
-        transform: translateX(-100%);
-      }
+@media screen and (min-width: 620px) {
     
-      100% {
-        opacity: 0.5;
-        transform: translateX(0);
-      }
-  }
-  */
+}
+
+@media screen and (min-width: 960px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+}

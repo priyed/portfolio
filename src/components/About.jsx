@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faCogs } from "@fortawesome/free-solid-svg-icons";
-import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
 import Skills from './Skills';
 import "./About.css";
