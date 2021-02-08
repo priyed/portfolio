@@ -1,50 +1,52 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
-  faFacebook,
   faTwitter,
   faGithub,
-  faWhatsapp
 } from "@fortawesome/free-brands-svg-icons";
 import "./Contacts.css";
+import Jump from 'react-reveal/Jump';
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
   return (
     <div className="contacts-container container" id="contact">
       <FontAwesomeIcon icon={faMailBulk} className="bg-icon" />
       <h4>Contact me</h4>
+      <Jump duration={3000}><h2 >Want to say hi?</h2></Jump>
+
+      <Fade left duration={2000}>
       <p>
         I'm currently open for contract or freelance opportunities on ReactJS
         and others forms of frontend web development
       </p>
       <h3>Let's build some cool stuff together!</h3>
-      <h5>Find me on:</h5>
-      <div className="social-btn-container">
+      </Fade>
+      <h5>REACH OUT ON:</h5>
+      <div className="social-btn-container" >
         <div className="social-btns">
-          <a href="#">
-            <FontAwesomeIcon icon={faFacebook} className="social-btn fb-icon" />
-          </a>
 
-          <a href="#">
+          <a href="#twitter">
             <FontAwesomeIcon
               icon={faTwitter}
               className="social-btn twitter-icon"
             />
           </a>
 
-          <a href="#">
+          <a href="#github">
             <FontAwesomeIcon icon={faGithub} className="social-btn git-icon" />
           </a>
 
-          <a href="#">
+          <a href="#mail">
             <FontAwesomeIcon
-              icon={faWhatsapp}
+              icon={faEnvelope}
               className="social-btn whatsapp-icon"
             />
           </a>
         </div>
       </div>
+      
       {/*<form name="contact" action="#" method="POST" className="contact-form">
         <input type="hidden" name="name" />
         <label htmlFor="name" className="form-label">

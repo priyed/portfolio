@@ -45,11 +45,11 @@ body {
 
 .header p {
   margin: 30px 20px 50px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .header a {
-  border: 2px solid #4c95dd;
+  border: 2px solid rgb(107, 235, 207);
   border-radius: 3px;
   padding: 10px 50px;
   text-decoration: none;
@@ -59,12 +59,38 @@ body {
 }
 
 .header a:hover {
-  background-color: #4c95dd;
-  color: white;
+  background-color: rgb(107, 235, 207);
+  color: #141B1F;
   padding-left: 55px;
   padding-right: 55px;
 }
 
 .header a:active {
   transform: translateY(5px);
+}
+
+@media screen and (min-width: 620px) {
+  .header h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .header h1 {
+    font-size: 85px;
+  }
+
+  .header p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header h1 {
+    font-size: 95px;
+  }
+
+  .header p {
+    font-size: 23px;
+  }
 }

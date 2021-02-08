@@ -16,6 +16,12 @@
   right: 0px;
 }
 
+.contacts-container h2 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+
 .contacts-container h4 {
   margin-bottom: 40px;
   text-align: left;
@@ -33,11 +39,11 @@
   margin-top: 20px;
   font-size: 20px;
   font-weight: lighter;
-  color: #4c95dd;
+  color: rgb(107, 235, 207);
 }
 
 .contacts-container p {
-  line-height: 20px;
+  line-height: 30px;
   font-size: 16px;
 }
 
@@ -100,7 +106,7 @@ label {
 .social-btn-container {
   position: absolute;
   left: 50%;
-  margin-top: 30px;
+  margin-top: 45px;
   transform: translate(-50%, -50%);
 }
 
@@ -121,9 +127,33 @@ label {
 }
 
 .social-btns .social-btn:hover {
-  color: #4c95dd;
+  color: rgb(107, 235, 207);
 }
 
+@media screen and (min-width: 620px) {
+  .contacts-container {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .contacts-container p {
+    font-size: 20px;
+  }
+
+  .contacts-container h2 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .contacts-container {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
 
 
 

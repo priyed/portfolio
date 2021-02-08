@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { debounce } from "../utilities/helpers";
 import "./Navigation.css";
 
@@ -32,24 +30,50 @@ const Navigation = () => {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
     document.getElementById("main").style.display = "none";
-    document.body.classList.toggle('lock-scroll');
+    document.body.classList.toggle("lock-scroll");
   };
 
   const closeNav = () => {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
-    document.getElementById("main").style.display = "block"
-    document.body.classList.toggle('lock-scroll');
+    document.getElementById("main").style.display = "block";
+    document.body.classList.toggle("lock-scroll");
   };
 
   return (
-    <div className="navigation" style={{ top: visible ? "0" : "-60px" }}>
+    <div className="navigation" style={{ top: visible ? "0" : "-70px" }}>
       <div id="main" className="lock-scroll">
-        <FontAwesomeIcon icon={faBars} onClick={openNav}className="menubtn"/>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          onClick={openNav}
+          className="menubtn"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M4 8h16M4 16h16"
+          />
+        </svg>
       </div>
       <nav id="mySidenav" className="sidenav">
-        <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>
-          <FontAwesomeIcon icon={faTimes} />
+        <a href="#c" className="closebtn" onClick={closeNav}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
         </a>
         <ul>
           <li>
