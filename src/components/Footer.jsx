@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer-container">
       <p id="copyright">
         {" "}
-        <FontAwesomeIcon icon={faCopyright} /> 2020 {" "} {" "}
+        <FontAwesomeIcon icon={faCopyright} /> 2021 {" "} {" "}
         Built with{" "}
         <span>
           <FontAwesomeIcon icon={faHeart} className="footer-icon" />

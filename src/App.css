@@ -14,8 +14,8 @@ html {
 
 body {
   font-family: "Lato";
-  background: #141B1F;
-  color: #F5F5F5;
+  background: #121212;
+  color: #E5E5E5;
   font-weight: lighter;
   overflow-x: hidden;
 }
@@ -40,27 +40,28 @@ body {
 .header h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 65px;
-  color: #F5F5F5;
+  color: #E5E5E5;
 }
 
 .header p {
   margin: 30px 20px 50px;
   font-size: 17px;
+  color: #ADADAD;
 }
 
 .header a {
-  border: 2px solid rgb(107, 235, 207);
-  border-radius: 3px;
+  border: 2px solid #8f8f8f79;
+  border-radius: 10px;
   padding: 10px 50px;
   text-decoration: none;
-  color: whitesmoke;
+  color: #E5E5E5;
   font-size: 16px;
   transition: all 0.4s ease-in-out;
 }
 
 .header a:hover {
-  background-color: rgb(107, 235, 207);
-  color: #141B1F;
+  background-color: #1e1e1e;
+  color: #E5E5E5;
   padding-left: 55px;
   padding-right: 55px;
 }

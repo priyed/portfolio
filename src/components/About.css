@@ -21,9 +21,14 @@
    text-align: center;
     font-size: 16px;
     font-weight: lighter;
-    color: #f5f5f5;
+    color: #ADADAD;
     line-height: 1.8;
-    margin: 30px 10px;
+    margin: 20px 10px;
+}
+
+.about-container p:last-of-type {
+    margin-bottom: 0;
+    
 }
 
 .profile-icon {
@@ -45,6 +50,19 @@
     align-items: center;
 }
 
+.skills-container h3 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #E5E5E5;
+}
+
+hr {
+    width: 30%;
+    height: 2px;
+    margin: 15px auto 20px;
+}
+
 .skill-cogs {
     color: rgb(114, 114, 114);
     font-size: 300px;
@@ -55,19 +73,47 @@
     top: -50px;
 }
 
-.skills-container h3 {
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    border-bottom: 1px solid rgb(94, 94, 94, 0.74);
-}
-
-#skills {
+.skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.skills span {
+    background-color: #8f8f8f25;
+    border-radius: 8px;
+    margin: 20px 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#react:hover {
+    background-color: #a3299d4f;
+}
+
+#framer:hover {
+    background-color: #5C29A34f;
+} 
+
+#git:hover {
+    background-color: #2969A34f;       
+}
+
+#tailwind:hover {
+    background-color: #A329764f; 
+}
+
+#css:hover {
+    background-color: #29A3904f;
+}
+
+#js:hover {
+    background-color: #2990A34f;
+}
+
+#html:hover {
+    background-color: #8329A336;
+}
 .icons-container {
     margin-top: 30px;
     display: grid;

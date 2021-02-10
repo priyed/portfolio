@@ -1,8 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faCogs } from "@fortawesome/free-solid-svg-icons";
-import "tippy.js/dist/tippy.css";
-import Skills from "./Skills";
 import "./About.css";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
@@ -35,10 +33,20 @@ const About = () => {
 
       <div className="skills-container">
         <FontAwesomeIcon icon={faCogs} className="skill-cogs" />
-
-        <h3>Skills I currently work with</h3>
+        <Fade left duration={2000}>
+        <h3>I currently work with</h3>
+        </Fade>
+        <Fade down duration={4000}><hr></hr></Fade>
         <Fade right>
-          <Skills />
+          <div className="skills">
+            <span id="react">React</span>
+            <span id="framer">Framer Motion</span>
+            <span id="css">CSS3</span>
+            <span id="js">JavaScript</span>
+            <span id="git">Git</span>
+            <span id="tailwind">TailwindCSS</span>
+            <span id="html">HTML5</span>
+          </div>
         </Fade>
       </div>
     </div>
