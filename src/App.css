@@ -32,30 +32,33 @@ body {
   padding-top: 100px;
 }
 
+.header h2, .header p {
+  color: #ADADAD;
+}
 .header h2 {
   margin-bottom: 20px;
   font-size: 25px;
+  
 }
 
 .header h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 65px;
-  color: #E5E5E5;
 }
 
 .header p {
   margin: 30px 20px 50px;
   font-size: 17px;
-  color: #ADADAD;
+  
 }
 
 .header a {
-  border: 2px solid #8f8f8f79;
+  border: 3px solid #8f8f8f79;
   border-radius: 10px;
   padding: 10px 50px;
   text-decoration: none;
-  color: #E5E5E5;
   font-size: 16px;
+  color: #E5E5E5;
   transition: all 0.4s ease-in-out;
 }
 
@@ -87,6 +90,11 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .App {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   .header h1 {
     font-size: 95px;
   }

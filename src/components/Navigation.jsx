@@ -54,7 +54,7 @@ const Navigation = () => {
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={2}
+            strokeWidth={1.5}
             d="M4 8h16M4 16h16"
           />
         </svg>
@@ -70,7 +70,7 @@ const Navigation = () => {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth={2}
+              strokeWidth={1.5}
               d="M6 18L18 6M6 6l12 12"
             />
           </svg>

@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFlask, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faFlask, faExternalLinkSquareAlt } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import "./Projects.css";
 import Zoom from "react-reveal/Zoom";
@@ -20,7 +20,7 @@ const Projects = () => {
         </p>
       </Zoom>
 
-      <Zoom duration={3000}>
+      <Zoom duration={1000}>
         <div className="projects">
           <div className="project-card">
             
@@ -30,7 +30,7 @@ const Projects = () => {
               ever. This is my shot at trying to build a clone. This was achieved with good ol` HTML and CSS.
             </p>
             <div className="project-anchors">
-              <a href="#live"><FontAwesomeIcon icon={faPaperPlane} className="link-icon" /></a>
+              <a href="#live"><FontAwesomeIcon icon={faExternalLinkSquareAlt} className="link-icon" /></a>
               <a href="#code"><FontAwesomeIcon icon={faGithub} className="link-icon" /></a>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Projects = () => {
               Built with React and tailwindcss.
             </p>
             <div className="project-anchors">
-              <a href="#live"><FontAwesomeIcon icon={faPaperPlane} className="link-icon" /></a>
+              <a href="#live"><FontAwesomeIcon icon={faExternalLinkSquareAlt} className="link-icon" /></a>
               <a href="#code"><FontAwesomeIcon icon={faGithub} className="link-icon" /></a>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Projects = () => {
               This a landing page for a tourism guide, built entirely with HTML and TailwinCSS.
             </p>
             <div className="project-anchors">
-              <a href="#live"><FontAwesomeIcon icon={faPaperPlane} className="link-icon" /></a>
+              <a href="#live"><FontAwesomeIcon icon={faExternalLinkSquareAlt} className="link-icon" /></a>
               <a href="#code"><FontAwesomeIcon icon={faGithub} className="link-icon" /></a>
             </div>
           </div>
@@ -70,7 +70,7 @@ const Projects = () => {
               provident quidem? Ipsam.
             </p>
             <div className="project-anchors">
-              <a href="#live"><FontAwesomeIcon icon={faPaperPlane} className="link-icon" /></a>
+              <a href="#live"><FontAwesomeIcon icon={faExternalLinkSquareAlt} className="link-icon" /></a>
               <a href="#code"><FontAwesomeIcon icon={faGithub} className="link-icon" /></a>
             </div>
           </div>

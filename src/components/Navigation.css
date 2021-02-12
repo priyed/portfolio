@@ -36,7 +36,7 @@
     top: 15px;
     text-decoration: none;
     color: #ccc;
-    width: 30px;
+    width: 40px;
     transition: all 0.4s;
 }
 
@@ -68,7 +68,7 @@
 .link {
     text-decoration: none;
     color:#b3b3b3;
-    font-size: 20px;
+    font-size: 16px;
     transition: all 0.2s;
 }
 
