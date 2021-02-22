@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { debounce } from "../utilities/helpers";
 import "./Navigation.css";
+import "./mobile-nav.css";
 
 const Navigation = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -27,9 +28,10 @@ const Navigation = () => {
   }, [prevScrollPos, visible, handleScroll]);
 
   const openNav = () => {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "100vw";
     document.getElementById("main").style.marginLeft = "250px";
     document.getElementById("main").style.display = "none";
+    document.getElementById("menu").style.transform = "scale(1)";
     document.body.classList.toggle("lock-scroll");
   };
 
@@ -37,11 +39,15 @@ const Navigation = () => {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
     document.getElementById("main").style.display = "block";
+    document.getElementById("menu").style.transform = "scale(0)";
     document.body.classList.toggle("lock-scroll");
   };
 
   return (
     <div className="navigation" style={{ top: visible ? "0" : "-70px" }}>
+
+      {/* Mobile Navigation */}
+      <div className="menu-wrap">
       <div id="main" className="lock-scroll">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +81,7 @@ const Navigation = () => {
             />
           </svg>
         </a>
-        <ul>
+        <ul id="menu">
           <li>
             <a className="link" href="#home" onClick={closeNav}>
               Home
@@ -97,7 +103,27 @@ const Navigation = () => {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav> 
+      </div>
+      
+      
+      {/*
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> */}
 
       {/*Desktop Navigation */}
       <nav className="desktop-navigation">

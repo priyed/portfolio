@@ -1,7 +1,7 @@
 .projects-container {
   margin-left: 30px;
   margin-right: 30px;
-  padding-top: 90px;
+  padding-top: 120px;
   position: relative;
   text-align: center;
 }
@@ -96,8 +96,6 @@
 .project-anchors a:hover {
   background-color: #adadad25;
 }
-
-
 
 @media screen and (min-width: 620px) {
   .projects-container {
