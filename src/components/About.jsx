@@ -7,8 +7,9 @@ import Fade from "react-reveal/Fade";
 
 const About = () => {
   return (
-    <div className="about-container container" id="about">
+    <div className="container about-container" id="about">
       <FontAwesomeIcon icon={faUser} className="profile-icon" />
+    
       <h4>About me</h4>
       <Slide left>
         <h1>Hey There!</h1>
@@ -16,7 +17,7 @@ const About = () => {
 
       <Slide up>
         <p>
-          My name is Stanley Duye, a frontend web developer with a knack for
+          My name is Priye Duye, a frontend web developer with a knack for
           building simple and easy to use websites and web apps without cutting
           short on functionality, design and speed.
         </p>
@@ -27,7 +28,7 @@ const About = () => {
         <p>
           I spend my days coding something, bringing designs/mockups to life and
           learning. When I am not coding, I trade the financial markets, watch
-          movies or hang out with friends.
+          movies or play video games.
         </p>
       </Slide>
 
@@ -46,6 +47,10 @@ const About = () => {
             <span id="git">Git</span>
             <span id="tailwind">TailwindCSS</span>
             <span id="html">HTML5</span>
+            <span id="redux">Redux</span>
+            <span id="github">GitHub</span>
+            <span id="mui">Material UI</span>
+            <span id="seo">SEO</span>
           </div>
         </Fade>
       </div>

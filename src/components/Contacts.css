@@ -1,5 +1,5 @@
 .contacts-container {
-  margin: 50px 30px 90px;
+  margin: 70px 30px 30px;
   padding-top: 90px;
   position: relative;
   font-weight: lighter;
@@ -13,7 +13,7 @@
   opacity: 0.1;
   position: absolute;
   top: 30px;
-  right: 0px;
+  left: -50px;
 }
 
 .contacts-container h2 {
@@ -30,97 +30,22 @@
   font-weight: lighter;
 }
 
-.contacts-container h3 {
-  margin-top: 15px;
-  font-weight: lighter;
-}
-
-.contacts-container h5 {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-.contacts-container p {
-  line-height: 30px;
-  font-size: 16px;
-  color: #ADADAD;
-}
-
-/*
-@keyframes fadeUp {
-    0% {
-      transform: translateY(-70px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
-
-form {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  color: #ccc;
-}
-
-label {
-  margin-top: 20px;
-  font-weight: lighter;
-}
-
-.form-label p {
-  margin-bottom: -10px;
-}
-
-.form-input {
-  width: 300px;
-  padding: 10px 10px;
-  border-radius: 2px;
-  color: #ccc;
-  outline: none;
-  border: 1px solid rgb(109, 109, 109);
-  background-color: #222831;
-}
-
-.submit-button {
-  width: 100px;
-  margin: 20px auto 0;
-  padding: 7px 10px;
-  border: none;
-  background-color: #61affd;
-  color: #2e2e2e;
-  border-radius: 2px;
-  box-shadow: 0 2px 2px 1px #61affd;
-  cursor: pointer;
-}
-
-.submit-button:active {
-  outline: none;
-}
-*/
 
 .social-btn-container {
-  position: absolute;
-  left: 50%;
-  margin-top: 45px;
-  transform: translate(-50%, -50%);
+  margin: 45px auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .social-btns  .social-btn {
   display: inline-block;
   color: #ccc;
-  width: 25px;
-  height: 25px;
-  margin: 0 10px;
+  width: 30px;
+  height: auto;
+  margin: 0 20px;
   text-align: center;
-  position: relative;
-  overflow: hidden;
-  
   box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
   opacity: 0.99;
   transition: all 0.3s;
@@ -128,31 +53,6 @@ label {
 
 .social-btns .social-btn:hover {
   color: #646464;
-}
-
-@media screen and (min-width: 620px) {
-  .contacts-container {
-    margin-left: 70px;
-    margin-right: 70px;
-  }
-  .contacts-container p {
-    font-size: 20px;
-  }
-
-  .contacts-container h2 {
-    font-size: 45px;
-  }
-}
-
-@media screen and (min-width: 960px) {
-  .contacts-container {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-
 }
 
 

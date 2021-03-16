@@ -6,10 +6,11 @@
     color: rgb(172, 172, 172);
     font-size: 13px;
     margin-top: 50px;
+    word-spacing: 4px;
 }
 
 .footer-icon {
-    color: red;
+    color: rgb(247, 81, 81);
 }
 
 .name {

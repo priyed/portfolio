@@ -6,9 +6,9 @@ const Home = () => {
     <div className="header" id="home">
       
       <Slide down duration={1500}>
-      <h2>I'm</h2>
-      <h1>STANLEY</h1>
-      <p>I can help you create an online presence for your business. In other words I am a front-end web developer</p>
+      <h2>Hello <span role="img" aria-label="wave-emoji">&#x1F44B;</span>, I'm</h2>
+      <h1>Priye</h1>
+      <p>Frontend Developer</p>
       
         <a href="#contact" className="contact-btn">
           Say Hi!

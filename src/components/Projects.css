@@ -66,9 +66,10 @@
 }
 
 .project-card p {
-  margin: 20px 20px;
+  margin: 30px 50px 20px;
   text-align: left;
   color: #ADADAD;
+  line-height: 1.4;
 }
 
 .project-card:hover {
@@ -76,7 +77,7 @@
 }
 
 .project-anchors {
-  margin: 40px;
+  margin: 20px 40px 40px;
   display: flex;
   flex-wrap: nowrap;
 }

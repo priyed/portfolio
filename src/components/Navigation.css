@@ -1,132 +1,133 @@
 .navigation {
-    background: #121212;
-    opacity: 0.8;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    width: 100%;   
-    height: 70px;
-    z-index: 100; 
-    transition: top 0.6s;
+  background: #121212;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 100;
+  transition: top 0.6s;
 }
 
 .menubtn {
-    width: 40px;
-    height: auto;
-    margin-left: 30px;
-    position: absolute;
-    top: 15px;
-    color: rgb(128, 128, 128);
-    cursor: pointer;
-    transition: all 0.4s;
+  width: 40px;
+  height: auto;
+  margin-left: 30px;
+  position: absolute;
+  top: 15px;
+  color: rgb(128, 128, 128);
+  cursor: pointer;
+  transition: all 0.4s;
 }
 
-.menubtn:hover, .closebtn:hover         {
-    color: #8f8f8f79;
+.menubtn:hover,
+.closebtn:hover {
+  color: #8f8f8f79;
 }
 
 .lock-scroll {
-    overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 .closebtn {
-    position: absolute;
-    left: 30px;
-    top: 15px;
-    text-decoration: none;
-    color: #ccc;
-    width: 40px;
-    transition: all 0.4s;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  text-decoration: none;
+  color: #ccc;
+  width: 40px;
+  transition: all 0.4s;
 }
 
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: #1E1E1E;
-    overflow-x: hidden;
-    transition: 0.5s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #1e1e1e;
+  overflow-x: hidden;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .sidenav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    text-align: center;
-    transform: scale(0);
-    transition: all 0.4s ease-in;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  text-align: center;
+  transform: scale(0);
+  transition: all 0.2s ease-in;
 }
 
-.sidenav ul li{
-    margin: 20px 10px;
+.sidenav ul li {
+  margin: 20px 10px;
 }
 
 .link {
-    text-decoration: none;
-    color:#f1f1f1;
-    font-size: 25px;
-    transition: all 0.2s;
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 25px;
+  transition: all 0.2s;
 }
 
 .link:hover {
-    color: #ececec79;
+  color: #ececec79;
 }
 
 .link:active {
-    text-decoration: none;
-    outline: none;
+  text-decoration: none;
+  outline: none;
 }
 
 .desktop-navigation {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 620px) {
-    .menubtn {
-        display: none;
-    }
+  .menubtn {
+    display: none;
+  }
 
-    .menu-wrap {
-        display: none;
-    }
+  .menu-wrap {
+    display: none;
+  }
 
-    .desktop-navigation {
-        display: block;
-        position: absolute;
-        right: 0;
-    }
+  .desktop-navigation {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
 
-    .link {
-        font-size: 16px;
-    }
+  .link {
+    font-size: 16px;
+  }
 
-    nav ul {
-        list-style: none;
-        display: flex;
-        margin-right: 30px;
-        margin-top: 20px;
-    }
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 20px;
+  }
 
-    .link {
-        margin: 0 20px;
-    }
+  .link {
+    margin: 0 20px;
+  }
 }
 
 @media screen and (min-width: 920px) {
-    nav ul {
-        margin-right: 70px;
-    }
+  nav ul {
+    margin-right: 70px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    
 }

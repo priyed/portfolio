@@ -18,7 +18,7 @@
 }
 
 .about-container p {
-   text-align: center;
+   text-align: left;
     font-size: 16px;
     font-weight: lighter;
     color: #ADADAD;
@@ -85,37 +85,54 @@ hr {
     border-radius: 8px;
     margin: 20px 10px;
     padding: 10px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
 
-#react:hover {
+#react {
     background-color: #a3299d4f;
 }
 
-#framer:hover {
+#framer {
     background-color: #5C29A34f;
 } 
 
-#git:hover {
+#git {
     background-color: #2969A34f;       
 }
 
-#tailwind:hover {
+#tailwind {
     background-color: #A329764f; 
 }
 
-#css:hover {
+#css {
     background-color: #29A3904f;
 }
 
-#js:hover {
-    background-color: #2990A34f;
+#js {
+    background-color: #a1a3294f;
 }
 
-#html:hover {
-    background-color: #8329A336;
+#html {
+    background-color: #8329A34f;
 }
+
+#redux {
+    background-color: rgba(236, 134, 0, 0.247);
+}
+
+#github {
+    background-color: rgba(128, 255, 0, 0.185);
+}
+
+#mui {
+    background-color: rgba(238, 10, 48, 0.247);
+}
+
+#seo {
+    background-color: rgba(147, 10, 238, 0.247);
+}
+
 .icons-container {
     margin-top: 30px;
     display: grid;
@@ -132,7 +149,7 @@ hr {
     transition: 0.4s ease-in-out;
 }
 
-.icon:hover {
+.icon {
     opacity: 1;
     transform: scale(1.2);
 }
@@ -154,7 +171,7 @@ hr {
 
 @media screen and (min-width: 1200px) {
     .about-container {
-        margin-left: 120px;
-        margin-right: 120px;
+        margin-left: 150px;
+        margin-right: 150px;
     }
 }

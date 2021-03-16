@@ -43,7 +43,7 @@ body {
 }
 .header h2 {
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 22px;
   
 }
 
@@ -53,13 +53,13 @@ body {
 }
 
 .header p {
-  margin: 30px 40px 50px;
+  margin: 20px 40px 50px;
   font-size: 17px;
   line-height: 35px;
 }
 
 .header a {
-  border: 1px solid #8f8f8f79;
+  border: 3px solid #8f8f8f79;
   border-radius: 10px;
   padding: 10px 50px;
   text-decoration: none;
@@ -85,9 +85,6 @@ body {
     font-size: 70px;
   }
 
-  .header p {
-    margin: 30px 20% 70px;
-  }
 }
 
 @media screen and (min-width: 920px) {

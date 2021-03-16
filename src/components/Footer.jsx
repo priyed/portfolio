@@ -9,11 +9,11 @@ const Footer = () => {
       <p id="copyright">
         {" "}
         <FontAwesomeIcon icon={faCopyright} /> {new Date().getFullYear()} {" "} {" "}
-        Built with{" "}
+        Developed with{" "}
         <span>
           <FontAwesomeIcon icon={faHeart} className="footer-icon" />
         </span>{" "}
-        by <span className="name">Stanley Duye</span>
+        by <span className="name">Priye Duye</span>
       </p>
     </div>
   );
