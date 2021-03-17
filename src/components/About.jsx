@@ -18,7 +18,7 @@ const About = () => {
       <Slide up>
         <p>
           My name is Priye Duye, a frontend web developer with a knack for
-          building simple and easy to use websites and web apps without cutting
+          building simple and user friendly websites and web apps without cutting
           short on functionality, design and speed.
         </p>
         <p>
