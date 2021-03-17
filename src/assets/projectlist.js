@@ -27,7 +27,7 @@ const projectList = [
       {
         id: 4,
         title: 'YSecure',
-        description: 'Web Template for a home security company, built with react,vanilla css. Also fitted react-hook-form and yup to handle form validation.',
+        description: 'Web Template for a home security company, built with react, vanilla css. Also fitted react-hook-form and yup to handle form validation.',
         live: 'https://ysecure.netlify.app/',
         code: `#https://github.com/priyed/home_secure`,
         
