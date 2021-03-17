@@ -2,7 +2,7 @@ const projectList = [
     {
       id: 1,
       title: 'Portfolio',
-      description: 'Built using react and custom css.I used a minimalist approach to the design and made it as lightweight as possible',
+      description: 'Built using react and custom css. I used a minimalist approach to the design and made it as lightweight as possible',
       live: 'https://priyeduye.netlify.app',
       code: `https://github.com/priyed/portfolio`,
       
