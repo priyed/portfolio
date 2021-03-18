@@ -10,7 +10,7 @@ const projectList = [
     {
         id: 2,
         title: 'Priyed Gallery',
-        description: 'An image gallery application built with react and tailwindcss using the pixabay API for fetching images. It also includes a mechanism for users to search for images.',
+        description: 'An image gallery application built with react and tailwindcss using the pixabay API for fetching images. It also includes a mechanism for users to search for images and an option to switch display mode.',
         live: '#live',
         code: `https://github.com/priyed/priyedgallery`,
         
