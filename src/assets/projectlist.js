@@ -20,7 +20,7 @@ const projectList = [
         title: 'Insure',
         description: 'A landing page built with html, css and javascript as part of a series of challenges by codementor.',
         live: 'https://insurepriyed.netlify.app',
-        code: `#https://github.com/priyed/insure-landing-page`,
+        code: `https://github.com/priyed/insure-landing-page`,
         
       },
      
@@ -29,7 +29,7 @@ const projectList = [
         title: 'YSecure',
         description: 'Web Template for a home security company, built with react, vanilla css. Also fitted react-hook-form and yup to handle form validation.',
         live: 'https://ysecure.netlify.app/',
-        code: `#https://github.com/priyed/home_secure`,
+        code: `https://github.com/priyed/home_secure`,
         
       },
   ];
