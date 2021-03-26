@@ -13,7 +13,7 @@ const Contact = () => {
     <div className="container contacts-container" id="contact">
       <FontAwesomeIcon icon={faMailBulk} className="bg-icon" />
       <h4>Contact me</h4>
-      <Jump duration={3000}><h2 >Want to say hi?</h2></Jump>
+      <Jump duration={5000}><h2 >Want to say hi?</h2></Jump>
 
       <Fade left duration={2000}>
       <div className="social-btn-container" >
