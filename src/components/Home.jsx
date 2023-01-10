@@ -7,7 +7,7 @@ const Home = () => {
       
       <Slide down duration={1500}>
       <h2>Hello <span role="img" aria-label="wave-emoji">&#x1F44B;</span>, I'm</h2>
-      <h1>Priye</h1>
+      <h1>Stanley Duye</h1>
       <p>Frontend Developer</p>
       
         <a href="#contact" className="contact-btn">

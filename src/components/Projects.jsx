@@ -1,13 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {Zoom, Slide} from "react-reveal";
 import {
   faFlask,
   faExternalLinkSquareAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import "./Projects.css";
-import projects from "../assets/projectlist";
-import Zoom from "react-reveal/Zoom";
+import {projects} from "../data/projects";
 
 const Projects = () => {
   return (
@@ -25,11 +26,13 @@ const Projects = () => {
         </p>
       </Zoom>
 
-      <Zoom duration={1000}>
+
         <div className="projects">
           {projects.map((project) => {
             return (
-              <div key={project.id} className="project-card">
+              <Slide up key={project.id}  duration={1000}>
+              <div className="project-card">
+               
                 <strong>{project.title}</strong>
                 <p>{project.description}</p>
                 <div className="project-anchors">
@@ -44,10 +47,11 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
+              </Slide>
             );
           })}
         </div>
-      </Zoom>
+   
     </div>
   );
 };

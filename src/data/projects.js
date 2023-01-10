@@ -1,4 +1,4 @@
-const projectList = [
+export const projects = [
   {
     id: 1,
     title: "Foodies choice",
@@ -29,8 +29,15 @@ const projectList = [
     title: "YSecure",
     description:
       "Web Template for a home security company, built with react, vanilla css. Also fitted react-hook-form and yup to handle form validation.",
-    live: "https://ysecure.netlify.app/",
+    live: "https://ysecure.netlify.app",
     code: `https://github.com/priyed/home_secure`,
   },
+  {
+    id: 4,
+    title: "Paza",
+    description: "Landing page for paza finance, built with react",
+    live: "https://fundwithpaza.netlify.app",
+    code: "."
+  }
 ];
-export default projectList;
+
