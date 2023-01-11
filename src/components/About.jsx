@@ -31,9 +31,8 @@ const About = () => {
       </Slide>
       <Slide up>
         <p>
-          I spend my days coding something, bringing designs/mockups to life and
-          learning. When I am not coding, I trade the financial markets, watch
-          movies or play video games.
+          I spend my days coding something, bringing designs and mockups to life and
+          learning.
         </p>
       </Slide>
 
