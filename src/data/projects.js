@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 0,
+    title: 'Staffcenter Payroll',
+    description: 
+    "This is payroll application where users can manage finacial activities of it's employees. Built using react, material ui, styled-components, redux-toolkit",
+    live: 'https://app.payroll.organogram.xyz/sign-in',
+    code: '.'
+  },
+  {
     id: 1,
     title: "Foodies choice",
     description:
