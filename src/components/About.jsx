@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faCogs } from "@fortawesome/free-solid-svg-icons";
-import {Slide, Fade} from "react-reveal";
+import { Slide, Fade } from "react-reveal";
 
 import { skills } from "../data/skills";
 import "./About.css";
@@ -18,8 +18,8 @@ const About = () => {
 
       <Slide up>
         <p>
-          My name is Priye Duye, a frontend web developer with a knack for
-          building simple and user friendly websites and web apps without
+          My name is Stanley Priye Duye, a frontend web developer with a knack
+          for building simple and user friendly websites and web apps without
           cutting short on functionality, design and speed.
         </p>
       </Slide>
@@ -31,8 +31,8 @@ const About = () => {
       </Slide>
       <Slide up>
         <p>
-          I spend my days coding something, bringing designs and mockups to life and
-          learning.
+          I spend my days coding something, bringing designs and mockups to life
+          and learning.
         </p>
       </Slide>
 
