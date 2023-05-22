@@ -3,7 +3,7 @@ export const projects = [
     id: 0,
     title: "Organogram",
     description:
-      "This is application where organization can manage activities of it's employees. Built using react, keycloak material ui, styled-components, redux-toolkit",
+      "This is application where an organization can manage the activities of it's employees. Built using react, keycloak material ui, styled-components, redux-toolkit",
     live: "https://admin.organogram.xyz",
     code: ".",
   },
