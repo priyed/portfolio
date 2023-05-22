@@ -1,11 +1,11 @@
 export const projects = [
   {
     id: 0,
-    title: 'Staffcenter Payroll',
-    description: 
-    "This is payroll application where users can manage finacial activities of it's employees. Built using react, material ui, styled-components, redux-toolkit",
-    live: 'https://app.payroll.organogram.xyz/sign-in',
-    code: '.'
+    title: "Organogram",
+    description:
+      "This is application where organization can manage activities of it's employees. Built using react, keycloak material ui, styled-components, redux-toolkit",
+    live: "https://admin.organogram.xyz",
+    code: ".",
   },
   {
     id: 1,
@@ -45,7 +45,6 @@ export const projects = [
     title: "Paza",
     description: "Landing page for paza finance, built with react",
     live: "https://fundwithpaza.netlify.app",
-    code: "."
-  }
+    code: ".",
+  },
 ];
-
